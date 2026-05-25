@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-medical-50: #f0fdfa;
+  --color-medical-100: #ccfbf1;
+  --color-medical-200: #99f6e4;
+  --color-medical-300: #5eead4;
+  --color-medical-400: #2dd4bf;
+  --color-medical-500: #14b8a6;
+  --color-medical-600: #0d9488;
+  --color-medical-700: #0f766e;
+  --color-medical-800: #115e59;
+  --color-medical-900: #134e4a;
+
+  --color-skycare-50: #f0f9ff;
+  --color-skycare-100: #e0f2fe;
+  --color-skycare-200: #bae6fd;
+  --color-skycare-300: #7dd3fc;
+  --color-skycare-400: #38bdf8;
+  --color-skycare-500: #0ea5e9;
+  --color-skycare-600: #0284c7;
+  --color-skycare-700: #0369a1;
+  --color-skycare-800: #075985;
+  --color-skycare-900: #0c4a6e;
+
+  --color-navy-50: #f8fafc;
+  --color-navy-100: #f1f5f9;
+  --color-navy-200: #e2e8f0;
+  --color-navy-300: #cbd5e1;
+  --color-navy-400: #94a3b8;
+  --color-navy-500: #64748b;
+  --color-navy-600: #475569;
+  --color-navy-700: #334155;
+  --color-navy-800: #1e293b;
+  --color-navy-900: #0f172a;
+  --color-navy-950: #020617;
+
+  --font-sans: 'Poppins', 'Inter', sans-serif;
+
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-navy-50);
+    color: var(--color-navy-800);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  /* Custom Modern Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--color-navy-100);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--color-medical-400);
+    border-radius: 9999px;
+    transition: background-color 0.3s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-medical-500);
+  }
+}
+
+@utility glass-nav {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+@utility glass-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(4px);
+  border: 1px solid var(--color-navy-100);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+@utility glass-dark {
+  background-color: rgba(15, 23, 42, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+@utility glow-teal {
+  box-shadow: 0 10px 30px -10px rgba(13, 148, 136, 0.3);
+}
+
+@utility glow-hover-teal {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    box-shadow: 0 25px 50px -12px rgba(20, 184, 166, 0.2);
+  }
+}
