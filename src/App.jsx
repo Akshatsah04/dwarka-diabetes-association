@@ -28,13 +28,13 @@ const teamData = {
       name: 'Dr. Amitabh Khanna',
       role: 'Founding Chairman (Est. Aug 27, 2011)',
       qualifications: 'MD, Senior Diabetologist & Clinical Advisor',
-      avatar: '/amitabh_khanna.jpg',
+      avatar: '/amitabh_khanna.webp',
     },
     {
       name: 'Dr. Anupama Khanna',
       role: 'Co-Founder & Chief Diabetologist',
       qualifications: 'MD (Medicine), Senior Consultant Endocrinologist',
-      avatar: '/anupama_khanna.jpg',
+      avatar: '/anupama_khanna.webp',
     },
   ],
   patrons: [
@@ -42,19 +42,19 @@ const teamData = {
       name: 'Dr. Vinod Mittal',
       role: 'Senior Medical Patron & Consultant Cardiologist',
       qualifications: 'MD, DM (Cardiology), Senior Consultant',
-      avatar: '/vinod_mittal.jpg',
+      avatar: '/vinod_mittal.webp',
     },
     {
       name: 'Dr. Sanjeev Gulati',
       role: 'Senior Medical Patron & Consultant Nephrologist',
       qualifications: 'MD, DM (Nephrology), Senior Consultant & Director',
-      avatar: '/sanjeev_gulati.png',
+      avatar: '/sanjeev_gulati.webp',
     },
     {
       name: 'Dr. Saket Kant',
       role: 'Senior Medical Patron & Consultant Endocrinologist',
       qualifications: 'MD, DM (Endocrinology), Diabetologist',
-      avatar: '/saket_kant.jpg',
+      avatar: '/saket_kant.webp',
     },
   ],
   executives: [
@@ -62,61 +62,61 @@ const teamData = {
       name: 'Dr. Deepak Arora',
       role: 'Executive Coordinator & General Physician',
       qualifications: 'MBBS, Family Medicine Specialist',
-      avatar: '/deepak_arora.jpg',
+      avatar: '/deepak_arora.webp',
     },
     {
       name: 'Dr. Manoj Sinha',
       role: 'Executive Director & Senior Consultant',
       qualifications: 'MBBS, MD (Medicine), Senior Advisor',
-      avatar: '/manoj_sinha.jpg',
+      avatar: '/manoj_sinha.webp',
     },
     {
       name: 'Dr. Prabhat Sinha',
       role: 'Executive Consultant & Medical Specialist',
       qualifications: 'MBBS, MD, Max Healthcare Consultant',
-      avatar: '/prabhat_sinha.jpg',
+      avatar: '/prabhat_sinha.webp',
     },
     {
       name: 'Dr. Naveen Bajaj',
       role: 'Executive Consultant & Pediatric Diabetologist',
       qualifications: 'MBBS, MD (Pediatrics), Clinical Diabetologist',
-      avatar: '/naveen_bajaj.jpg',
+      avatar: '/naveen_bajaj.webp',
     },
     {
       name: 'Dr. Prasenjit Panda',
       role: 'Executive Consultant & Clinical Diabetologist',
       qualifications: 'MBBS, MD (Medicine), Senior Specialist',
-      avatar: '/prasenjit_panda.jpg',
+      avatar: '/prasenjit_panda.webp',
     },
     {
       name: 'Dr. Chandramani Punjabi',
       role: 'Executive Consultant & Senior Diabetologist',
       qualifications: 'MBBS, MD (Medicine), Senior Advisor',
-      avatar: '/chandramani_punjabi.jpg',
+      avatar: '/chandramani_punjabi.webp',
     },
     {
       name: 'Dr. Shamshad Ali',
       role: 'Executive Consultant & Clinical Specialist',
       qualifications: 'MBBS, MD (Medicine), Senior Clinical Advisor',
-      avatar: '/shamshad_ali.png',
+      avatar: '/shamshad_ali.webp',
     },
     {
       name: 'Dr. Manoj Rawat',
       role: 'Executive Consultant & Clinical Specialist',
       qualifications: 'MBBS, MD (Medicine), Senior Advisor',
-      avatar: '/manoj_rawat.jpg',
+      avatar: '/manoj_rawat.webp',
     },
     {
       name: 'Dr. Amit Pendharkar',
       role: 'Executive Consultant & Senior Cardiologist',
       qualifications: 'MBBS, MD, DM (Cardiology), Senior Advisor',
-      avatar: '/amit_pendharkar.png',
+      avatar: '/amit_pendharkar.webp',
     },
     {
       name: 'Dr. Amit Ranjan Sultania',
       role: 'Executive Consultant & Clinical Specialist',
       qualifications: 'MBBS, MD (Medicine), Senior Advisor',
-      avatar: '/amit_sultania.png',
+      avatar: '/amit_sultania.webp',
     },
 
   ],
@@ -125,19 +125,19 @@ const teamData = {
       name: 'Dr. Teja Ram',
       role: 'Nominated Member & Medical Advisor',
       qualifications: 'MBBS, MD, Senior Consultant',
-      avatar: '/teja_ram.jpg',
+      avatar: '/teja_ram.webp',
     },
     {
       name: 'Dr. Rakesh Mishra',
       role: 'Nominated Member & Clinical Specialist',
       qualifications: 'MBBS, MD (Medicine), General Physician',
-      avatar: '/rakesh_mishra.jpg',
+      avatar: '/rakesh_mishra.webp',
     },
     {
       name: 'Dr. Pranav Shankar',
       role: 'Nominated Member & Senior Consultant',
       qualifications: 'MBBS, MD, Consultant Diabetologist',
-      avatar: '/pranav_shankar.jpg',
+      avatar: '/pranav_shankar.webp',
     }
   ]
 };
@@ -146,121 +146,121 @@ const teamData = {
 const galleryImages = [
   {
     id: 1,
-    url: '/gallery_event_1.jpg',
+    url: '/gallery_event_1.webp',
     title: 'Seminar: Hypertension & Comorbidities',
     description: 'Dwarka Diabetes Association hosted a scientific exchange symposium focusing on the management of hypertension and related cardiovascular risks. Dr. Amit Pendharkar spoke on therapeutic pathways, moderated by Dr. Amitabh Khanna at Radisson Blu, Dwarka.'
   },
   {
     id: 2,
-    url: '/gallery_event_2.jpg',
+    url: '/gallery_event_2.webp',
     title: 'DDA Board & Executive Members',
     description: 'Founding Chairman Dr. Amitabh Khanna and Chief Diabetologist Dr. Anupama Khanna standing with DDA executive coordinators and senior medical advisors during the Annual Scientific Exchange Meeting.'
   },
   {
     id: 3,
-    url: '/gallery_event_3.jpg',
+    url: '/gallery_event_3.webp',
     title: 'Symposium: Decoding Diabetes Care',
     description: 'Specialist physicians gathered at DDA\'s interactive colloquium focused on therapeutic advances in microbiome health, micronutrient balance, and metabolic care protocols.'
   },
   {
     id: 4,
-    url: '/gallery_event_4.jpg',
+    url: '/gallery_event_4.webp',
     title: 'Academic Rooftop Exchange Dinner',
     description: 'Prominent clinicians, advisors, and general practitioners sharing experiences and collaborating on community metabolic screening initiatives during our outdoor evening symposium.'
   },
   {
     id: 5,
-    url: '/gallery_event_5.jpg',
+    url: '/gallery_event_5.webp',
     title: 'DDA Scientific Colloquium Panel',
     description: 'DDA executive panel and delegates reviewing clinical case files, patient awareness programs, and community support pathways in Dwarka.'
   },
   {
     id: 6,
-    url: '/gallery_event_6.jpg',
+    url: '/gallery_event_6.webp',
     title: 'Felicitation of Medical Speakers',
     description: 'Founding Chairman Dr. Amitabh Khanna and DDA members presenting a wellness token of appreciation to guest speakers during a scientific academic colloquium in Dwarka.'
   },
   {
     id: 7,
-    url: '/gallery_event_7.jpg',
+    url: '/gallery_event_7.webp',
     title: 'Seminar: Metabolic Harmony Update 2026',
     description: 'DDA academic flyer inviting specialists to the Metabolic Harmony Update 2026 at Hotel Jaiminis Landmark, Dwarka. Chaired by Dr. Manoj Kumar Rawat and Dr. J. Rawat, moderated by Dr. Amitabh Khanna.'
   },
   {
     id: 8,
-    url: '/gallery_event_8.jpg',
+    url: '/gallery_event_8.webp',
     title: 'CME on Microbiome & Metabolism',
     description: 'Dr. Amitabh Khanna presenting a scientific session on gut microbiome health and insulin resistance to practicing local physicians at Fire & Ice Restaurant, Dwarka Sector 10.'
   },
   {
     id: 9,
-    url: '/gallery_event_9.jpg',
+    url: '/gallery_event_9.webp',
     title: 'CME Lecture & Closing Address',
     description: 'Scientific panel speaker delivering a CME update on patient glycemic control, concluding with an interactive Q&A session with local healthcare practitioners.'
   },
   {
     id: 10,
-    url: '/gallery_event_10.jpg',
+    url: '/gallery_event_10.webp',
     title: 'Symposium: Decoding Diabetes Care CME',
     description: 'DDA CME flyer detailing the Friday scientific symposium at Fire & Ice, Dwarka Sector 10. Featured Dr. Amitabh Khanna as speaker, Dr. Ankur Jain as chairperson, and Dr. Sharad Srivastava as moderator.'
   },
   {
     id: 11,
-    url: '/gallery_event_11.jpg',
+    url: '/gallery_event_11.webp',
     title: 'Novo Nordisk Semaglutide Power Forum',
     description: 'Dr. Amitabh Khanna presenting as moderator at the Cardio-Metabolic Health Tech Summit. The session focused on Semaglutide therapeutic outcomes and metabolic breakthroughs.'
   },
   {
     id: 12,
-    url: '/gallery_event_12.jpg',
+    url: '/gallery_event_12.webp',
     title: 'Cardio-Metabolic CME & Clinical Update',
     description: 'DDA advisory panel speaker presenting clinical research results on glycemic regulation and lipid profiling to Dwarka family physicians during an indoor CME seminar.'
   },
   {
     id: 13,
-    url: '/gallery_event_13.jpg',
+    url: '/gallery_event_13.webp',
     title: 'DDA Annual General Assembly Delegates',
     description: 'A gathering of senior female diabetologists, clinical nutritionists, and guest delegates attending the annual administrative and healthcare planning assembly of DDA.'
   },
   {
     id: 14,
-    url: '/gallery_event_14.jpg',
+    url: '/gallery_event_14.webp',
     title: 'Cardio-Metabolic Tech Summit Banquet',
     description: 'Advisory board members and delegates enjoying scientific presentations and an academic banquet dinner during the annual medical congress in Delhi NCR.'
   },
   {
     id: 15,
-    url: '/gallery_event_15.jpg',
+    url: '/gallery_event_15.webp',
     title: 'CME Scientific Audience & Delegates',
     description: 'Senior consulting nephrologists, cardiologists, and endocrinologists listening attentively to the latest clinical review data on metabolic medicine during a DDA summit.'
   },
   {
     id: 16,
-    url: '/gallery_event_16.jpg',
+    url: '/gallery_event_16.webp',
     title: 'Symposium: CKM Syndrome & Heart Failure',
     description: 'Scientific presentation on Cardio-Kidney-Metabolic (CKM) Syndrome pathogenesis and Lyvelsa therapy advancements during a DDA academic colloquium.'
   },
   {
     id: 17,
-    url: '/gallery_event_17.jpg',
+    url: '/gallery_event_17.webp',
     title: 'DDA CME Academic Audience Seating',
     description: 'Founding Chairman Dr. Amitabh Khanna in plaid blazer and senior physicians listening to clinical case studies during a DDA scientific colloquium in New Delhi.'
   },
   {
     id: 18,
-    url: '/gallery_event_18.jpg',
+    url: '/gallery_event_18.webp',
     title: 'Joint Scientific Podium Lecture',
     description: 'DDA panel speakers delivering a joint presentation on metabolic dysfunction and kidney disease management during a local healthcare seminar.'
   },
   {
     id: 19,
-    url: '/gallery_event_19.jpg',
+    url: '/gallery_event_19.webp',
     title: 'Organ Protection in Diabetes Forum',
     description: 'Academic forum flyer detailing DDA\'s panel discussion on organ protection. Chaired by Dr. Amitabh Khanna, featuring Dr. Saket Kant, Dr. Saket Bhardwaj, and Dr. Yogesh Kumar Chhabra.'
   },
   {
     id: 20,
-    url: '/gallery_event_20.jpg',
+    url: '/gallery_event_20.webp',
     title: 'Scientific Panel Dialogue & Panelists',
     description: 'Dr. Amitabh Khanna conducting an interactive panel discussion with senior cardiologists and endocrinologists at the DDA annual medical council meeting.'
   }
@@ -414,7 +414,7 @@ export default function App() {
                 transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut', delay: 0.2 }}
               />
               <div className="relative p-2 bg-white rounded-full shadow-2xl overflow-hidden w-24 h-24 flex items-center justify-center">
-                <img src="/logo.png" alt="DDA Logo" className="w-20 h-20 object-contain animate-pulse" />
+                <img src="/logo.webp" alt="DDA Logo" className="w-20 h-20 object-contain animate-pulse" />
               </div>
             </div>
             <motion.h2
@@ -452,7 +452,7 @@ export default function App() {
               className="flex items-center gap-2 group text-left cursor-pointer"
             >
               <div className="flex items-center justify-center p-1 rounded-xl bg-white shadow-md group-hover:scale-105 transition-transform duration-300 w-11 h-11 flex-shrink-0">
-                <img src="/logo.png" alt="DDA Logo" className="w-full h-full object-contain" />
+                <img src="/logo.webp" alt="DDA Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <span className={`text-xl font-bold tracking-wider font-sans block ${isScrolled ? 'text-navy-900' : 'text-white'}`}>
@@ -538,7 +538,7 @@ export default function App() {
         {/* Rich Background with overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-luminosity scale-105 transform motion-safe:animate-[pulse-slow_8s_ease-in-out_infinite]"
-          style={{ backgroundImage: `url('/hero_medical_bg.png')` }}
+          style={{ backgroundImage: `url('/hero_medical_bg.webp')` }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-navy-900/60" />
 
@@ -717,9 +717,10 @@ export default function App() {
 
               <div className="relative overflow-hidden rounded-3xl shadow-2xl z-10 aspect-[4/3] group border-4 border-white">
                 <img
-                  src="/about_dda.png"
+                  src="/about_dda.webp"
                   alt="DDA Healthcare Consultation"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                   <span className="text-white text-sm font-semibold tracking-wide bg-medical-500/80 backdrop-blur-sm px-4 py-2 rounded-xl">
@@ -943,6 +944,7 @@ export default function App() {
                           src={member.avatar}
                           alt={member.name}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          loading="lazy"
                         />
                       </div>
 
@@ -1297,7 +1299,7 @@ export default function App() {
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center gap-2.5">
                 <div className="flex items-center justify-center p-1 rounded-xl bg-white shadow-md w-11 h-11 flex-shrink-0">
-                  <img src="/logo.png" alt="DDA Logo" className="w-full h-full object-contain" />
+                  <img src="/logo.webp" alt="DDA Logo" className="w-full h-full object-contain" />
                 </div>
                 <span className="text-2xl font-extrabold tracking-wide">DDA</span>
               </div>
