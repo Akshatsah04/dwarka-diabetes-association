@@ -614,12 +614,9 @@ export default function App() {
 
           {/* Section title */}
           <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
-            <h2 className="text-base text-medical-600 font-extrabold uppercase tracking-widest mb-2">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-navy-900 tracking-tight">
               Who We Are
             </h2>
-            <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-navy-900 tracking-tight">
-              Dedicated to Combating Diabetes In Dwarka
-            </h3>
             <div className="w-16 h-1 bg-medical-500 mx-auto mt-4 rounded-full" />
           </div>
 
@@ -648,7 +645,7 @@ export default function App() {
               </p>
 
               <div className="p-4 bg-medical-50/50 rounded-2xl border border-medical-100/50 text-xs sm:text-sm text-navy-700">
-                <strong>Founding Status:</strong> Established on <strong>August 27, 2011</strong> under the visionary chairmanship of <strong>Dr. Amitabh Khanna</strong>. Formally registered as a medical advocacy and community wellness society (Reg No. S/RS/SW/0794/2012) under the Societies Registration Act XXI of 1860.
+                <strong>Founding Status:</strong> Established on <strong>August 27, 2011</strong> under the visionary chairmanship of <strong>Dr. Amitabh Khanna</strong>.
               </div>
 
               {/* Special Programs Section */}
@@ -663,7 +660,8 @@ export default function App() {
                     'Diabetic Foot Care',
                     'Diabetic Retinopathy Awareness',
                     'Diabetes Education Programs',
-                    'Diabetic Exercise Programs'
+                    'Diabetic Exercise Programs',
+                    'Speciality In Obesity',
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-center gap-3 text-navy-700 group/item hover:text-medical-600 transition-colors">
                       <div className="flex-shrink-0 w-6 h-6 rounded-full bg-medical-100 flex items-center justify-center text-medical-600 shadow-sm group-hover/item:bg-medical-500 group-hover/item:text-white transition-colors duration-300">
@@ -696,7 +694,7 @@ export default function App() {
                 visible: { opacity: 1, x: 0 }
               }}
               transition={{ duration: 0.6 }}
-              className="relative"
+              className="relative lg:translate-y-6"
             >
               {/* Back card outline glow */}
               <div className="absolute -inset-4 bg-gradient-to-tr from-medical-500 to-skycare-500 rounded-3xl opacity-20 blur-2xl z-0" />
@@ -705,10 +703,10 @@ export default function App() {
                 <img
                   src="/about_dda.webp"
                   alt="DDA Healthcare Consultation"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                  className="w-full h-full object-cover object-[center_20%] group-hover:scale-105 transition-transform duration-700 ease-out"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-start p-6">
                   <span className="text-white text-sm font-semibold tracking-wide bg-medical-500/80 backdrop-blur-sm px-4 py-2 rounded-xl">
                     Dedicated Support Sessions
                   </span>
