@@ -425,14 +425,6 @@ export default function App() {
             >
               Dwarka Diabetes Association
             </motion.h2>
-            <motion.p
-              className="mt-2 text-xs md:text-sm text-navy-400 tracking-widest font-mono"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-            >
-              COMMUNITY • INTEGRITY • SUPPORT
-            </motion.p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -553,24 +545,18 @@ export default function App() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="flex flex-col items-center"
           >
-            {/* Tagline pill */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-skycare-200 text-xs sm:text-sm font-semibold tracking-wider uppercase mb-6 backdrop-blur-sm">
-              <span className="w-2 h-2 rounded-full bg-medical-400 animate-ping" />
-              Empowering Dwarka Against Diabetes
+            {/* Logo */}
+            <div className="mb-6 p-3 bg-white/95 rounded-3xl shadow-2xl border border-navy-100/30 w-24 h-24 flex items-center justify-center hover:scale-105 transition-transform duration-500 backdrop-blur-md">
+              <img src="/logo.webp" alt="DDA Logo" className="w-full h-full object-contain" />
             </div>
 
             {/* Title */}
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight max-w-5xl font-sans">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-10 leading-tight max-w-5xl font-sans">
               DWARKA DIABETES <br />
               <span className="bg-gradient-to-r from-medical-300 via-skycare-300 to-medical-200 bg-clip-text text-transparent">
                 ASSOCIATION
               </span>
             </h1>
-
-            {/* Subtitle */}
-            <p className="text-base sm:text-lg md:text-xl text-navy-200 max-w-3xl leading-relaxed mb-10">
-              Dwarka Diabetes Association (DDA) is a community-driven organization dedicated to spreading awareness, promoting prevention, and supporting individuals affected by diabetes.
-            </p>
 
             {/* Call to Actions */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -585,7 +571,7 @@ export default function App() {
                 onClick={() => handleNavClick('contact')}
                 className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/15 border border-white/20 text-white font-bold rounded-2xl backdrop-blur-md transform hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 flex items-center justify-center gap-2"
               >
-                Join Free Camps
+                Contact Us
               </button>
             </div>
           </motion.div>
@@ -598,9 +584,9 @@ export default function App() {
             className="mt-20 max-w-4xl mx-auto grid grid-cols-3 gap-4 md:gap-8 border border-white/10 rounded-3xl p-6 sm:p-8 bg-white/5 backdrop-blur-md"
           >
             {[
-              { val: '5000+', label: 'Citizens Screened' },
-              { val: '120+', label: 'Wellness Camps' },
-              { val: '35+', label: 'Expert Doctors' }
+              { val: '800+', label: 'CME' },
+              { val: '100+', label: 'Wellness Camps' },
+              { val: '300+', label: 'Expert Doctors' }
             ].map((stat, idx) => (
               <div key={idx} className="text-center">
                 <div className="text-2xl sm:text-4xl font-extrabold text-white bg-gradient-to-r from-medical-300 to-skycare-300 bg-clip-text text-transparent">
@@ -660,7 +646,7 @@ export default function App() {
               <p className="text-navy-600 leading-relaxed text-base">
                 Our vision is to build a healthier society by reducing the burden and complications of diabetes through awareness, prevention, and evidence-based medical care. We are also dedicated to keeping healthcare professionals updated with the latest advances and developments in the management of diabetes, obesity, and other metabolic disorders through continuous academic and scientific activities.
               </p>
-              
+
               <div className="p-4 bg-medical-50/50 rounded-2xl border border-medical-100/50 text-xs sm:text-sm text-navy-700">
                 <strong>Founding Status:</strong> Established on <strong>August 27, 2011</strong> under the visionary chairmanship of <strong>Dr. Amitabh Khanna</strong>. Formally registered as a medical advocacy and community wellness society (Reg No. S/RS/SW/0794/2012) under the Societies Registration Act XXI of 1860.
               </div>
@@ -780,13 +766,13 @@ export default function App() {
                     onClick={() => setLightboxImage(image)}
                     className="flex-shrink-0 w-[290px] sm:w-[340px] lg:w-[390px] group/card relative cursor-pointer overflow-hidden rounded-3xl shadow-md hover:shadow-xl hover:shadow-medical-500/5 transition-all duration-500 aspect-[4/3] border border-navy-100/80 bg-navy-950"
                   >
-                    <img 
-                      src={image.url} 
-                      alt={image.title} 
+                    <img
+                      src={image.url}
+                      alt={image.title}
                       className="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-700 ease-out"
                       loading="lazy"
                     />
-                    
+
                     {/* Overlay details */}
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-950/95 via-navy-950/40 to-transparent opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                       <span className="inline-flex self-start px-2 py-0.5 bg-medical-500/20 text-medical-300 text-[9px] font-bold uppercase tracking-wider rounded-md border border-medical-500/30 mb-2">
@@ -812,7 +798,7 @@ export default function App() {
               </div>
             </div>
           ) : (
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 15 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-50px' }}
@@ -1115,11 +1101,11 @@ export default function App() {
               {/* Visual Map Container */}
               <div className="rounded-3xl overflow-hidden shadow-md border border-navy-100 relative group aspect-[4/3] bg-navy-200">
                 {/* Embed Real Google Map */}
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.810502120025!2d77.0396010753896!3d28.594738575685885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ace15fa9b77%3A0x1b15304b39280ca0!2sDiabetes+Speciality+Center%2C+302%2C+Gangotri+Apartments%2C+Pocket+1%2C+Sector+12%2C+Dwarka%2C+New+Delhi%2C+Delhi+110078!5e0!3m2!1sen!2sin!4v1716666666666!5m2!1sen!2sin" 
-                  className="w-full h-full rounded-3xl border-0 shadow-lg" 
-                  allowFullScreen="" 
-                  loading="lazy" 
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.810502120025!2d77.0396010753896!3d28.594738575685885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ace15fa9b77%3A0x1b15304b39280ca0!2sDiabetes+Speciality+Center%2C+302%2C+Gangotri+Apartments%2C+Pocket+1%2C+Sector+12%2C+Dwarka%2C+New+Delhi%2C+Delhi+110078!5e0!3m2!1sen!2sin!4v1716666666666!5m2!1sen!2sin"
+                  className="w-full h-full rounded-3xl border-0 shadow-lg"
+                  allowFullScreen=""
+                  loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
 
