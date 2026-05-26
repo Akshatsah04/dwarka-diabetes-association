@@ -16,7 +16,7 @@ export default function Team({ teamData }) {
             DDA TEAM
           </h3>
           <p className="text-navy-500 mt-3 text-base sm:text-lg">
-            The compassionate physicians, healthcare advocates, and community leaders orchestrating wellness in Dwarka.
+            The compassionate physicians, healthcare advocates, and community leaders orchestrating wellness.
           </p>
           <div className="w-16 h-1 bg-medical-500 mx-auto mt-4 rounded-full" />
         </div>
@@ -26,7 +26,7 @@ export default function Team({ teamData }) {
           const roleTitle = roleKey === 'founders'
             ? 'Founders'
             : roleKey === 'patrons'
-              ? 'Honorary Patrons'
+              ? 'Patrons'
               : roleKey === 'executives'
                 ? 'Executive Committee'
                 : 'Nominated Members';
@@ -63,7 +63,7 @@ export default function Team({ teamData }) {
                     {/* Member Info */}
                     <div className="flex-grow space-y-2">
                       <span className="inline-block px-3 py-1 bg-medical-50 text-medical-600 text-[10px] font-bold uppercase tracking-wider rounded-md border border-medical-100">
-                        {roleKey.slice(0, -1)}
+                        {roleKey === 'nominated' ? 'nominee' : roleKey.slice(0, -1)}
                       </span>
                       <h5 className="text-lg font-bold text-navy-900 group-hover:text-medical-600 transition-colors">
                         {member.name}
