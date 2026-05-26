@@ -57,15 +57,15 @@ export default function Footer({ handleNavClick }) {
             <div className="space-y-3 text-sm text-navy-300">
               <p className="flex items-start gap-2.5">
                 <MapPin className="w-5 h-5 text-medical-400 flex-shrink-0 mt-0.5" />
-                <span>Flat 302, Gangotri Apartments, DDA Pocket-1, Sector-12, Dwarka, New Delhi – 110078</span>
+                <span>Flat 302,309 Gangotri Apartments, DDA Pocket-1, Sector-12, Dwarka, New Delhi – 110078</span>
               </p>
               <p className="flex items-center gap-2.5">
                 <Phone className="w-5 h-5 text-medical-400 flex-shrink-0" />
-                <span>+91 9810949594</span>
+                <span>+91 9810569594</span>
               </p>
               <p className="flex items-center gap-2.5">
                 <Mail className="w-5 h-5 text-medical-400 flex-shrink-0" />
-                <span>info@dwarkadiabetes.org</span>
+                <span>amitabkhanna@gmail.com</span>
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function Footer({ handleNavClick }) {
             &copy; {new Date().getFullYear()} Dwarka Diabetes Association (DDA). All Rights Reserved.
           </p>
           <p className="flex items-center gap-1 text-[11px]">
-            Made with <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" /> for the community of Dwarka.
+            Made with <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" /> for the community.
           </p>
         </div>
       </div>
