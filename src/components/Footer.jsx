@@ -19,13 +19,13 @@ export default function Footer({ handleNavClick }) {
               <span className="text-2xl font-extrabold tracking-wide">DDA</span>
             </div>
             <p className="text-navy-300 text-sm leading-relaxed max-w-sm">
-              Dwarka Diabetes Association is a dedicated volunteer-led medical advocacy group. Our target is bringing diabetes screenings, early diagnosis tools, and metabolic coaching support to all residents of Dwarka.
+              Dwarka Diabetes Association is a professional association of specialist doctors and healthcare experts committed to diabetes and obesity awareness, prevention, education, and patient care.
             </p>
 
             {/* Emergency reminder card */}
             <div className="inline-flex items-center gap-2 p-3 bg-red-500/10 border border-red-500/20 text-red-300 rounded-xl text-xs max-w-sm">
               <ShieldAlert className="w-5 h-5 flex-shrink-0" />
-              <span><strong>Note:</strong> DDA is a medical awareness association, not an emergency hospital. For acute insulin crises, call emergency services.</span>
+              <span><strong>Note:</strong> DDA is a medical awareness association, not an emergency hospital.</span>
             </div>
           </div>
 

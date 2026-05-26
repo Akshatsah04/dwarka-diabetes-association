@@ -22,14 +22,8 @@ export default function Mission() {
               Our Mission
             </h3>
 
-            <p className="text-xl sm:text-2xl md:text-3xl font-bold leading-relaxed mb-10 max-w-4xl">
-              "Dwarka Diabetes Association (DDA) is committed to building a healthier society through continuous physician training, public education, active diagnostic camps, and charitable care."
-            </p>
-
-            <div className="w-24 h-0.5 bg-medical-500/50 mb-12" />
-
             {/* Four Core Pillars with Icons */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full text-left">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full text-left mt-8">
               {[
                 {
                   icon: <Award className="w-6 h-6" />,
