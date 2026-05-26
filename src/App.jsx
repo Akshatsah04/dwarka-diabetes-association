@@ -56,6 +56,12 @@ const teamData = {
       qualifications: 'MD, DM (Endocrinology), Diabetologist',
       avatar: '/saket_kant.webp',
     },
+    {
+      name: 'Dr. Sudhir Chhabra',
+      role: 'Senior Medical Patron & Consultant Physician',
+      qualifications: 'MD (Medicine), Senior Advisor',
+      avatar: '/sudhir_chhabra.webp',
+    },
   ],
   executives: [
     {
@@ -737,14 +743,11 @@ export default function App() {
 
           {/* Section title */}
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-base text-medical-600 font-extrabold uppercase tracking-widest mb-2">
-              Our Footprint
-            </h2>
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-navy-900 tracking-tight">
-              Community Gallery
+              Photo Gallery
             </h3>
             <p className="text-navy-500 mt-3 text-base sm:text-lg">
-              Moments from our recent medical screening camps, lifestyle workshops, and community education drives.
+              Glipses of our recent activities.
             </p>
             <div className="w-16 h-1 bg-medical-500 mx-auto mt-4 rounded-full" />
           </div>
@@ -771,26 +774,8 @@ export default function App() {
                       loading="lazy"
                     />
 
-                    {/* Overlay details */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-950/95 via-navy-950/40 to-transparent opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                      <span className="inline-flex self-start px-2 py-0.5 bg-medical-500/20 text-medical-300 text-[9px] font-bold uppercase tracking-wider rounded-md border border-medical-500/30 mb-2">
-                        Event Photo
-                      </span>
-                      <h4 className="text-white text-base font-bold leading-snug">
-                        {image.title}
-                      </h4>
-                      <p className="text-skycare-200 text-xs mt-1.5 font-medium line-clamp-2 leading-relaxed">
-                        {image.description}
-                      </p>
-                      <div className="text-white flex items-center gap-1.5 text-[10px] mt-4 uppercase tracking-wider font-bold text-medical-300 group-hover/card:translate-x-1 transition-transform">
-                        Enlarge Details <ExternalLink className="w-3.5 h-3.5" />
-                      </div>
-                    </div>
-
-                    {/* Corner Tag */}
-                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-navy-800 text-[10px] font-bold tracking-wider px-3.5 py-1.5 rounded-full border border-navy-100 shadow-sm">
-                      DDA ARCHIVE
-                    </div>
+                    {/* Subtle click indicator on hover */}
+                    <div className="absolute inset-0 bg-navy-950/10 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10" />
                   </div>
                 ))}
               </div>
@@ -836,35 +821,14 @@ export default function App() {
                 animate={{ scale: 1, y: 0 }}
                 exit={{ scale: 0.95, y: 15 }}
                 transition={{ type: 'spring', damping: 25 }}
-                className="max-w-4xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row border border-navy-200"
+                className="relative max-w-4xl max-h-[85vh] w-auto bg-transparent rounded-3xl overflow-hidden shadow-2xl flex items-center justify-center border-4 border-white"
                 onClick={(e) => e.stopPropagation()}
               >
-                {/* Photo */}
-                <div className="md:w-3/5 relative bg-navy-950">
-                  <img
-                    src={lightboxImage.url}
-                    alt={lightboxImage.title}
-                    className="w-full h-full object-cover max-h-[300px] md:max-h-[500px]"
-                  />
-                </div>
-                {/* Info details */}
-                <div className="md:w-2/5 p-6 sm:p-8 flex flex-col justify-center bg-white space-y-4">
-                  <div className="inline-flex self-start px-3 py-1 bg-medical-50 text-medical-700 text-xs font-semibold rounded-full border border-medical-100">
-                    DDA Initiatives
-                  </div>
-                  <h4 className="text-xl sm:text-2xl font-bold text-navy-900 leading-snug">
-                    {lightboxImage.title}
-                  </h4>
-                  <p className="text-navy-600 leading-relaxed text-sm sm:text-base">
-                    {lightboxImage.description}
-                  </p>
-                  <div className="pt-4 border-t border-navy-100 flex items-center justify-between text-xs text-navy-400">
-                    <span className="font-semibold flex items-center gap-1 text-navy-500">
-                      <Calendar className="w-4 h-4 text-medical-500" /> Delhi NCR Drive
-                    </span>
-                    <span>Dwarka, Delhi</span>
-                  </div>
-                </div>
+                <img
+                  src={lightboxImage.url}
+                  alt="Gallery Preview"
+                  className="max-w-full max-h-[80vh] object-contain"
+                />
               </motion.div>
             </motion.div>
           )}
@@ -881,11 +845,8 @@ export default function App() {
 
           {/* Section title */}
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-base text-medical-600 font-extrabold uppercase tracking-widest mb-2">
-              Our Pillars
-            </h2>
             <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-navy-900 tracking-tight">
-              DDA TEAM & ADVISORS
+              DDA TEAM
             </h3>
             <p className="text-navy-500 mt-3 text-base sm:text-lg">
               The compassionate physicians, healthcare advocates, and community leaders orchestrating wellness in Dwarka.
