@@ -17,25 +17,25 @@ export const teamData = {
     {
       name: 'Dr. Vinod Mittal',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior Consultant physician & Diabetologist',
       avatar: '/vinod_mittal.webp',
     },
     {
       name: 'Dr. Sanjeev Gulati',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Nephrologist',
       avatar: '/sanjeev_gulati.webp',
     },
     {
       name: 'Dr. Saket Kant',
       role: '',
-      qualifications: ' ',
+      qualifications: 'Senior consultant Endocrinologist ',
       avatar: '/saket_kant.webp',
     },
     {
       name: 'Dr. Sudhir Chhabra',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant physician & Diabetologist',
       avatar: '/sudhir_chhabra.webp',
     },
   ],
@@ -43,61 +43,61 @@ export const teamData = {
     {
       name: 'Dr. Deepak Arora',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/deepak_arora.webp',
     },
     {
       name: 'Dr. Manoj Sinha',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/manoj_sinha.webp',
     },
     {
       name: 'Dr. Prabhat Sinha',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/prabhat_sinha.webp',
     },
     {
       name: 'Dr. Naveen Bajaj',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/naveen_bajaj.webp',
     },
     {
       name: 'Dr. Prasenjit Panda',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Cardiologist',
       avatar: '/prasenjit_panda.webp',
     },
     {
       name: 'Dr. Chandramani Punjabi',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Pulmonologist',
       avatar: '/chandramani_punjabi.webp',
     },
     {
       name: 'Dr. Shamshad Ali',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/shamshad_ali.webp',
     },
     {
       name: 'Dr. Manoj Rawat',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/manoj_rawat.webp',
     },
     {
       name: 'Dr. Amit Pendharkar',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Cardiologist',
       avatar: '/amit_pendharkar.webp',
     },
     {
       name: 'Dr. Amit Ranjan Sultania',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/amit_sultania.webp',
     },
   ],
@@ -105,20 +105,26 @@ export const teamData = {
     {
       name: 'Dr. Teja Ram',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior Consultant health and Family Welfare',
       avatar: '/teja_ram.webp',
     },
     {
       name: 'Dr. Rakesh Mishra',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/rakesh_mishra.webp',
     },
     {
       name: 'Dr. Pranav Shankar',
       role: '',
-      qualifications: '',
+      qualifications: 'Senior consultant Physician',
       avatar: '/pranav_shankar.webp',
+    },
+    {
+      name: 'Dr. S. K. Garg',
+      role: '',
+      qualifications: 'Senior Consultant Physician',
+      avatar: '/sk_garg.webp',
     }
   ]
 };
@@ -163,8 +169,8 @@ export const galleryImages = [
   {
     id: 7,
     url: '/gallery_event_7.webp',
-    title: 'Seminar: Metabolic Harmony Update 2026',
-    description: 'DDA academic flyer inviting specialists to the Metabolic Harmony Update 2026 at Hotel Jaiminis Landmark, Dwarka. Chaired by Dr. Manoj Kumar Rawat and Dr. J. Rawat, moderated by Dr. Amitabh Khanna.'
+    title: 'Scientific Meeting: Ozempic in Type 2 Diabetes Management',
+    description: 'Dwarka Diabetes Association scientific invitation flyer focusing on the clinical role of Ozempic in Type 2 Diabetes management. The academic symposium featured lectures by Dr. Ajay Yadav and Dr. Sanjay Khanna, moderated by Dr. Amitabh Khanna.'
   },
   {
     id: 8,

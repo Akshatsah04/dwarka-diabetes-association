@@ -109,7 +109,7 @@ export default function About({ handleNavClick }) {
             </div>
 
             {/* Overlay Stat Chip */}
-            <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl flex items-center gap-4 border border-navy-100 z-20 max-w-[220px]">
+            <div className="absolute -bottom-6 left-4 sm:-left-6 bg-white p-5 rounded-2xl shadow-xl flex items-center gap-4 border border-navy-100 z-20 max-w-[220px]">
               <div className="w-12 h-12 bg-skycare-100 rounded-xl flex items-center justify-center text-skycare-600">
                 <Award className="w-6 h-6" />
               </div>

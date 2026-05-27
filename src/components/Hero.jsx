@@ -62,7 +62,7 @@ export default function Hero({ handleNavClick }) {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
-          className="mt-20 max-w-4xl mx-auto grid grid-cols-3 gap-4 md:gap-8 border border-white/10 rounded-3xl p-6 sm:p-8 bg-white/5 backdrop-blur-md"
+          className="mt-20 max-w-4xl mx-auto grid grid-cols-3 gap-2 sm:gap-8 border border-white/10 rounded-3xl p-4 sm:p-8 bg-white/5 backdrop-blur-md"
         >
           {[
             { val: '800+', label: 'CME' },

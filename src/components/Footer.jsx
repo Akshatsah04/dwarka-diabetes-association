@@ -61,11 +61,11 @@ export default function Footer({ handleNavClick }) {
               </p>
               <p className="flex items-center gap-2.5">
                 <Phone className="w-5 h-5 text-medical-400 flex-shrink-0" />
-                <span>+91 9810569594</span>
+                <a href="tel:+919810569594" className="hover:text-white hover:underline transition-all duration-300">+91 9810569594</a>
               </p>
-              <p className="flex items-center gap-2.5">
+              <p className="flex items-center gap-2.5 font-sans">
                 <Mail className="w-5 h-5 text-medical-400 flex-shrink-0" />
-                <span>amitabkhanna@gmail.com</span>
+                <a href="mailto:amitabkhanna@gmail.com" className="hover:text-white hover:underline transition-all duration-300 break-all">amitabkhanna@gmail.com</a>
               </p>
             </div>
           </div>

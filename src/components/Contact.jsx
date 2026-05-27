@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="space-y-6 flex flex-col justify-between">
 
             {/* Address Card */}
-            <div className="bg-white rounded-3xl p-6 shadow-md border border-navy-100 flex items-start gap-4">
+            <div className="bg-white rounded-3xl p-5 sm:p-6 shadow-md border border-navy-100 flex items-start gap-4">
               <div className="w-12 h-12 bg-medical-50 text-medical-500 rounded-xl flex items-center justify-center flex-shrink-0 shadow-inner">
                 <MapPin className="w-6 h-6" />
               </div>
@@ -35,17 +35,19 @@ export default function Contact() {
             </div>
 
             {/* Phone & Timings Card */}
-            <div className="bg-white rounded-3xl p-6 shadow-md border border-navy-100 flex items-start gap-4">
+            <div className="bg-white rounded-3xl p-5 sm:p-6 shadow-md border border-navy-100 flex items-start gap-4">
               <div className="w-12 h-12 bg-skycare-50 text-skycare-500 rounded-xl flex items-center justify-center flex-shrink-0 shadow-inner">
                 <Phone className="w-6 h-6" />
               </div>
               <div>
                 <h4 className="text-base font-bold text-navy-900 mb-1">Call Timings</h4>
-                <p className="text-sm text-navy-600 leading-relaxed font-semibold">
-                  +91 9810569594 , +91 9810639594
-                </p>
-                <p className="text-xs text-navy-400 mt-1.5 flex items-center gap-1 leading-relaxed">
-                  <Clock className="w-3.5 h-3.5 text-medical-500 flex-shrink-0" />
+                <div className="text-sm text-navy-600 leading-relaxed font-semibold flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
+                  <a href="tel:+919810569594" className="hover:text-medical-600 transition-colors whitespace-nowrap">+91 9810569594</a>
+                  <span className="hidden sm:inline text-navy-400">,</span>
+                  <a href="tel:+919810639594" className="hover:text-medical-600 transition-colors whitespace-nowrap">+91 9810639594</a>
+                </div>
+                <p className="text-xs text-navy-400 mt-2 flex items-start gap-1 leading-relaxed">
+                  <Clock className="w-3.5 h-3.5 text-medical-500 flex-shrink-0 mt-0.5" />
                   <span>
                     Mon - Sat: 11:00 AM - 3:00 PM & 6:00 PM - 8:00 PM <br />
                     Sun: 11:00 AM - 3:00 PM
@@ -55,15 +57,17 @@ export default function Contact() {
             </div>
 
             {/* Email Card */}
-            <div className="bg-white rounded-3xl p-6 shadow-md border border-navy-100 flex items-start gap-4">
+            <div className="bg-white rounded-3xl p-5 sm:p-6 shadow-md border border-navy-100 flex items-start gap-4">
               <div className="w-12 h-12 bg-medical-50 text-medical-500 rounded-xl flex items-center justify-center flex-shrink-0 shadow-inner">
                 <Mail className="w-6 h-6" />
               </div>
               <div>
                 <h4 className="text-base font-bold text-navy-900 mb-1">Email Inquiries</h4>
-                <p className="text-sm text-navy-600 leading-relaxed font-semibold">
-                  amitabkhanna@gmail.com / anupamakhanna1967@gmail.com
-                </p>
+                <div className="text-sm text-navy-600 leading-relaxed font-semibold flex flex-col xl:flex-row xl:items-center gap-1 xl:gap-2">
+                  <a href="mailto:amitabkhanna@gmail.com" className="hover:text-medical-600 transition-colors break-all">amitabkhanna@gmail.com</a>
+                  <span className="hidden xl:inline text-navy-400">/</span>
+                  <a href="mailto:anupamakhanna1967@gmail.com" className="hover:text-medical-600 transition-colors break-all">anupamakhanna1967@gmail.com</a>
+                </div>
               </div>
             </div>
 
