@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUp } from 'lucide-react';
 import './App.css';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Import Static Data Layer
 import { teamData, galleryImages } from './data/ddaData';
@@ -150,6 +151,7 @@ export default function App() {
 
 
       <Analytics />
+      <SpeedInsights />
 
     </div>
   );
