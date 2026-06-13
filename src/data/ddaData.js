@@ -83,12 +83,6 @@ export const teamData = {
       avatar: '/shamshad_ali.webp',
     },
     {
-      name: 'Dr. Manoj Rawat',
-      role: '',
-      qualifications: 'Senior consultant Physician',
-      avatar: '/manoj_rawat.webp',
-    },
-    {
       name: 'Dr. Amit Pendharkar',
       role: '',
       qualifications: 'Senior consultant Cardiologist',
